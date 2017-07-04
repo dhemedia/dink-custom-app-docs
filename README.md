@@ -59,7 +59,7 @@ An example of the app provided in [fetch_PDFs_from_enterprise_sample](/fetch_PDF
 ### Some extra info about stats
 Although the API docs should provide a clear picture it's not always easy for 3rd parties to
 get the stats registered properly. That's why an example of an Angular service for registering
-stats is provided in [statservice.js] (/snippets/statservice.js)
+stats is provided in [statservice.js](/snippets/statservice.js).
 It illustrates the basic logic and should get you on your way.
 
 
