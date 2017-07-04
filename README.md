@@ -6,6 +6,10 @@ display it in a webview.
 
 Our application does not impose any framework or architecture.
 
+## ECMAScript standards
+In order to ensure working code on all platforms you should use ECMAScript 5. 
+Support for ECMAScript 6 varies across platforms which means using it could lead to unexpected bugs.
+
 ## Apps without d!nk integration
 
 Any collection of html, javascript and css files can be uploaded as a zip.
