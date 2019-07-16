@@ -46,7 +46,11 @@
           function onLoad() {
               if (window.cordova) {
                   document.addEventListener('deviceready', onDeviceReady, false);
-              } else {
+              } 
+              else if (location.host === "sites.dink.eu") {
+                  document.addEventListener('dkpluginready', onDeviceReady, false);
+              } 
+              else {
                   console.log('not using cordova');
                   onDeviceReady();
               }

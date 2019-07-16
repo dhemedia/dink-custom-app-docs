@@ -31,6 +31,7 @@ This can be set up in a few steps:
 1. include an app_dink.js script in your index.html, this app_dink.js file should be empty and will be overwritten by our system when used in the d!nk application
 2. make sure the include an empty script called phonegap.js, this file will also be overwritten by our system when used in the d!nk application
 3. on IOS you'll need to wait for the deviceready event in order to use the DKPlugin API
+4. in a browser, when code is hosted at sites.dink.eu, you'll need to wait for the dkpluginready event in order to use the DKPlugin API
 
 An example of such an app is provided in : [app_with_dink_integration](/app_with_dink_integration/index.html)
 
